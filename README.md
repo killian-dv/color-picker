@@ -1,6 +1,6 @@
 # Color picker 🎨
 
-![aperçu](preview.png)
+![aperçu](preview-app.png)
 
 Voici un color picker fait en HTML SCSS et Vanilla JS.
 Ce color picker permet de :
