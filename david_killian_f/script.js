@@ -59,9 +59,9 @@ submit.addEventListener('click', () => {
 
 // Suppréssion de toutes les pastilles
 clear.addEventListener('click', () => {
-    const pastilles = Array.from(document.querySelectorAll('.pastille'));
     pastilles.forEach(pastille => {
         colorList.removeChild(pastille);
     });
-    couleurs.length = 0;
+    couleurs = [];
+    console.log(couleurs);
 });
